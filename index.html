@@ -24,6 +24,29 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
+        <!--Added range and checkboxes for password settings-->
+        <ul class="settings">Password Settings</ul>
+          <label>Password Length</label>
+          <li>
+            <input type="range" min="8" max="128" value="12" id="passwordLengthRange" oninput="num.value = this.value">
+            <output id="num">12</output>
+          </li>
+          <li>
+            <input type="checkbox" id="lowercaseCheckbox">
+            <label>Include Lowercase Letters</label>
+          </li>
+          <li>
+            <input type="checkbox" id="uppercaseCheckbox">
+            <label>Include Uppercase Letters</label>
+          </li>
+          <li>
+            <input type="checkbox" id="numberCheckbox">
+            <label>Include Numbers</label>
+          </li>
+          <li>
+            <input type="checkbox" id="specialCharacterCheckbox">
+            <label>Include Special Characters</label>
+          </li>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>

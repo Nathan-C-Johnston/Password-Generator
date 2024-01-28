@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: lightblue;
 }
 
 .wrapper {
@@ -31,7 +31,7 @@ header {
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: lightgoldenrodyellow;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -52,6 +52,16 @@ header {
 
 .card-body {
   min-height: 100px;
+}
+
+.settings {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+li{
+  text-decoration: wavy;
+  list-style: none;
 }
 
 .card-footer {
